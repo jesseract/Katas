@@ -11,7 +11,7 @@
 
 class Change
 
-  def make_change(amount)
+  def self.make_change(amount)
     change = []
 
     (amount/25).times{change << 25}
